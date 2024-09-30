@@ -58,7 +58,7 @@ for l in range(linhas):
     for c in range(colunas):
         print(simbolo, end='')
     print()
-    '''
+    
 
 
 #Conhecendo o WHILE LOOP
@@ -69,3 +69,15 @@ while valor > 20:
     dia += 1
     print(f' No dia {dia} o produto vai ser vendido por R${valor}' )
     valor -= 5
+    
+
+#OPERADOR TERNARIO
+
+idade = 13
+
+resultado = 'Voto permitido' if idade >=16 else 'Voto não permitido'
+
+print(resultado)
+'''
+
+#
