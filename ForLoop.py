@@ -80,4 +80,15 @@ resultado = 'Voto permitido' if idade >=16 else 'Voto não permitido'
 print(resultado)
 '''
 
-#
+#CRIANDO CONDIÇÕES COM WHILE LOOP
+
+valor = int(input('Digite o valor do produto em R$ '))
+
+while valor > 20:
+    valor = (valor * 0.10) + valor
+    print(f'O valor do produto final será de R${valor}')
+    break
+
+
+
+
